@@ -1,7 +1,7 @@
 import React from 'react';
 import Loading from './Loading';
 
-const ImagePreview = (props) => {
+const ImagePreviewer = (props) => {
     // Function to handle image download
     const handleDownload = () => {
         if (props.enhanced && (props.enhanced.image || props.enhanced)) {
@@ -59,4 +59,4 @@ const ImagePreview = (props) => {
     );
 };
 
-export default ImagePreview;
+export default ImagePreviewer;

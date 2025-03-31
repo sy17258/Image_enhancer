@@ -79,7 +79,7 @@ function App() {
           © 2025 AI Image Enhancer. All rights reserved.
           </p>
           <p>
-          Developed by <a href="https://www.linkedin.com/in/shivamyadav-sy/" target="_blank" rel="noopener noreferrer" className="text-blue-300 hover:underline">Shivam Yadav</a>
+          Developed by <a href="https://www.linkedin.com/in/shivamyadav-sy/" target="_blank" rel="noopener noreferrer" className="text-green-600 hover:underline">Shivam Yadav</a>
           </p>
         </div>
       </div>
