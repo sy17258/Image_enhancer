@@ -65,21 +65,21 @@ function App() {
   return (
     <>
     <div className="flex flex-col items-center justify-center min-h-screen px-4 relative z-10">
-        <div className="text-center ">
-          <div className="flex flex-nowrap items-center justify-between ">
-          <img src={logo} alt="AI Image Enhancer Logo" className="h-34 w-44 mr-48 " />
-            <h1 className="text-3xl font-bold mr-96 text-white">AI Image Enhancer</h1>
+        <div className="text-center w-full mb-6">
+          <div className="flex flex-col md:flex-row items-center justify-center md:justify-between">
+            <img src={logo} alt="AI Image Enhancer Logo" className="h-24 w-auto mb-4 md:mb-0" />
+            <h1 className="text-2xl md:text-3xl font-bold text-white">AI Image Enhancer</h1>
           </div>
         </div>
 
         <Home />
         
-        <div className="flex justify-between w-full text-sm text-white mt-4 mb-4 backdrop-blur-sm bg-black/10 p-3 rounded-lg border border-white/10">
-          <p>
+        <div className="flex flex-col md:flex-row justify-between w-full text-sm text-white mt-4 mb-4 backdrop-blur-sm bg-black/10 p-3 rounded-lg border border-white/10">
+          <p className="text-center md:text-left mb-2 md:mb-0">
           © 2025 AI Image Enhancer. All rights reserved.
           </p>
-          <p>
-          Developed by <a href="https://www.linkedin.com/in/shivamyadav-sy/" target="_blank" rel="noopener noreferrer" className="text-green-600 hover:underline">Shivam Yadav</a>
+          <p className="text-center md:text-right">
+          Developed by <a href="https://www.linkedin.com/in/shivamyadav-sy/" target="_blank" rel="noopener noreferrer" style={{color: 'rgb(0, 255, 208)'}} className="hover:underline">Shivam Yadav</a>
           </p>
         </div>
       </div>

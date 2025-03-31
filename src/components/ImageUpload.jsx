@@ -11,10 +11,10 @@ const ImageUpload = (props) => {
 
     return (
         <>
-            <div className="backdrop-blur-sm bg-white/20 shadow-lg rounded-2xl p-2 w-64 border border-blue-300/30">
+            <div className="backdrop-blur-sm bg-white/20 shadow-lg rounded-2xl p-4 w-full max-w-md mx-auto border border-blue-300/30">
                 <label 
                 htmlFor="fileInput"
-                className='block w-full cursor-pointer border-2 border-dashed border-blue-300/50 rounded-lg p-2 text-center hover:border-blue-400 hover:bg-blue-500/10 transition-all'>
+                className='block w-full cursor-pointer border-2 border-dashed border-blue-300/50 rounded-lg p-4 text-center hover:border-blue-400 hover:bg-blue-500/10 transition-all'>
                     <span className="text-white font-medium">Click to upload an image</span>
                     <p className="text-xs text-blue-200 mt-2">PNG, JPG, GIF up to 10MB</p>
                 </label>
