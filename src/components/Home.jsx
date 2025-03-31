@@ -1,6 +1,6 @@
 import { useState } from "react";
 import ImageUpload from "./ImageUpload";
-import ImagePreview from "./ImagePreview";
+import ImagePreviewerer from "./ImagePreviewer";
 import enhancedImageApi from "../utils/enhancedImageApi";
 
 const Home = () => {
@@ -28,7 +28,7 @@ const Home = () => {
     return (
         <>
             <ImageUpload UploadImageHandler={UploadImageHandler} />
-            <ImagePreview 
+            <ImagePreviewerer 
                 loading={loading}
                 uploadImage={uploadImage}
                 enhanced={enhancedImage} 
