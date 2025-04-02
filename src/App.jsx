@@ -68,8 +68,7 @@ function App() {
         <div className="text-center w-full mb-6">
           <div className="flex flex-col md:flex-row items-center justify-center">
             <img src={logo} alt="AI Image Enhancer Logo" className="h-24 w-auto mb-4 md:mb-0 md:mr-4" />
-            <h1 className="title">AI Image Enhancer</h1>
-            <p className="text-white">Powered by HitechIndia</p>
+            <h1 className="title">AI Image Enhancer </h1>
           </div>
         </div>
 
